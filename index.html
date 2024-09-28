@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math formulas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h3>Math Foumula</h3>
+        </header>
+        <div class="math_formula_cards">
+            <div class="circle_area card">
+                <label for="">বৃত্তের পরিধি</label>
+                <div class="formula_1">
+                    <input id="c_a" class=" card_g"  type="number" placeholder="Enter r-value">
+                    =
+                    <input id="c_a_result" type="number" placeholder="result">
+                </div>
+            </div>
+            <!-- card End>> -->
+            <div class="circumference_of_the_circle card">
+                <label for="">বৃত্তের পরিসীমা</label>
+                <div class="fourmula_1">
+                    <input type="number" id="c_c" class=" card_g"  placeholder="Enter vlaue of r">
+                    =
+                    <input type="number" id="c_c_result" placeholder="result">
+                </div>
+            </div>
+
+            <!-- card End>> -->
+
+            <div class="squre card">
+                <label for="">বর্গ</label>
+                <div class="fourmula_1">
+                    <input type="number"  class=" card_g"  id="squre" placeholder="Enter r">
+                    =
+                    <input type="number" id="squre_result" placeholder="result">
+                </div>
+            </div>
+
+            <!-- card End>> -->
+
+            <div class="hyperbola card">
+                <label for="">অতিভুজ</label>
+                <div class="fourmula_2">
+                    <input type="number" class=" card_g"  class="hyper card_g" id="hyperbola_x" placeholder="Enter x"> <b>+</b>
+                    <input type="number" class="hyper card_g" id="hyperbola_y" placeholder="Enter y"> <br
+                        class="br_responsive">
+                    <button id="hyperbola_btn" class="hyper all_btn"> click</button>
+                    <input class="hyper f_2" type="number" id="hyperbola_result" placeholder="result">
+                </div>
+            </div>
+
+
+            <div class="force card">
+                <label for="">বল</label>
+                <div class="fourmula_2">
+                    <input type="number" class="force card_g" id="force_a" placeholder="Enter a"> 
+                    <input type="number" class="force card_g" id="force_m" placeholder="Enter m"> <br
+                        class="br_responsive">
+                    <button id="force_btn" class="force all_btn"> click</button>
+                    <input class="force f_2"  type="number" id="force_f" placeholder="Enter F" >
+                </div>
+            </div>
+
+            <!-- card End>> -->
+            <!-- Div for cards End == -->
+        </div>
+
+    </div>
+
+    <script src="math-formula.js"></script>
+</body>
+
+</html>

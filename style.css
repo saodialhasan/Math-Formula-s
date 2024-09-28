@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: arial, Times 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 5px;
+    border: 5px solid blueviolet;
+}
+
+.math_formula_cards {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card {
+    border: 2px solid red;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.card_g{
+    border: 2px solid green;
+}
+
+.br_responsive {
+    display: none;
+}
+
+.card input {
+    width: 200px;
+}
+
+.all_btn {
+    width: 120px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    padding: 2px 0;
+}
+
+
+.fourmula_2 .f_2{
+margin-top: 5px;
+}
+
+
+
+/* << End - all >> */
